@@ -15,7 +15,7 @@
         <Key ID="STR_Shops_C_Police">
             <Original>Altis Police Department Shop</Original>
             <Czech>Altis policejní oddělení Shop</Czech>
-            <French>Vestiarie de Gendarmerie</French>
+            <French>Vestiarie de la Gendarmerie</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>
             <Russian></Russian>
             <Portuguese>Loja de Roupas Policiais</Portuguese>
@@ -26,7 +26,7 @@
         <Key ID="STR_Shops_C_Rebel">
             <Original>Mohammed's Jihadi Shop</Original>
             <Czech>Mohamedův džihád Shop</Czech>
-            <French>Magasin Rebel de Mohammed</French>
+            <French>Magasin Gangster</French>
             <Spanish>Tienda Jihadi de Mohamed</Spanish>
             <Italian>Negozio della Jihad di Mohammed</Italian>
             <Russian></Russian>
@@ -37,7 +37,7 @@
         <Key ID="STR_Shops_C_Diving">
             <Original>Steve's Diving Shop</Original>
             <Czech>Steve je potápění obchod</Czech>
-            <French>Magasin de plongé Steven</French>
+            <French>Magasin de plongé</French>
             <Spanish>Tienda de Buceo</Spanish>
             <Italian>Negozio Sub di Steve</Italian>
             <Russian></Russian>
@@ -52,7 +52,7 @@
             <Russian></Russian>
             <German>Billy Joe Bekleidung</German>
             <Italian>Emporio di Billy</Italian>
-            <French>Friperie de Billy Joe</French>
+            <French>Friperie de l'armurier</French>
             <Portuguese>Roupa Billy Joe</Portuguese>
             <Polish>Billy Joe Odzież</Polish>
         </Key>
@@ -63,14 +63,14 @@
             <Russian></Russian>
             <German>Billy Joe Schusswaffen</German>
             <Italian>Armeria di Billy Joe</Italian>
-            <French>Les armes de Billy Joe</French>
+            <French>Armurier</French>
             <Portuguese>Armas de fogo Billy Joe</Portuguese>
             <Polish>Broń palna Billy Joe</Polish>
         </Key>
         <Key ID="STR_Shops_C_Kart">
             <Original>Bobby's Kart-Racing Outfits</Original>
             <Czech>Billy Joe Střelné zbraně</Czech>
-            <French>Tenues de Bobby</French>
+            <French>Tenues de Kart</French>
             <Spanish>Tienda de Trajes de Carreras</Spanish>
             <Italian>Vestiario da Pilota </Italian>
             <Russian></Russian>
@@ -96,7 +96,7 @@
             <Russian></Russian>
             <German>Rebellen Markt</German>
             <Italian>Mercato Ribelle</Italian>
-            <French>Marché Rebel</French>
+            <French>Marché Gagnster</French>
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market Rebeliantów</Polish>
         </Key>
@@ -151,7 +151,7 @@
             <Russian></Russian>
             <German>Drogendealer</German>
             <Italian>Spacciatore</Italian>
-            <French>Dealer de Drogue</French>
+            <French>Dealer</French>
             <Portuguese>Traficante</Portuguese>
             <Polish>Sprzedawca 'Trawy'</Polish>
         </Key>
@@ -173,7 +173,7 @@
             <Russian></Russian>
             <German>Fischmarkt</German>
             <Italian>Pescivendolo</Italian>
-            <French>Marché de Poissons</French>
+            <French>Poissonnerie</French>
             <Portuguese>Mercado de Peixes</Portuguese>
             <Polish>Sklep Rybny</Polish>
         </Key>
@@ -195,7 +195,7 @@
             <Russian></Russian>
             <German>Altis Industriehandel</German>
             <Italian>Vendita materiali industriali</Italian>
-            <French>Acheteur Industriel</French>
+            <French>Acheteur de Métaux</French>
             <Portuguese>Comprador de Material Indústrial</Portuguese>
             <Polish>Skup materiałów przemysłowych</Polish>
         </Key>
@@ -206,7 +206,7 @@
             <Russian></Russian>
             <German>APD Gegenstände</German>
             <Italian>Negozio Polizia</Italian>
-            <French>Equipement de Police</French>
+            <French>Equipement de Gendarmerie</French>
             <Portuguese>Equipamentos da Polícia</Portuguese>
             <Polish>Zbrojownia Policji</Polish>
         </Key>
@@ -217,7 +217,7 @@
             <Russian></Russian>
             <German>Juan's Zementleger</German>
             <Italian>Vendita Cemento</Italian>
-            <French>Poseur de Ciment</French>
+            <French>Acheteur de Ciment</French>
             <Portuguese>Comprador de Cimento</Portuguese>
             <Polish>Wytwórnia cementu</Polish>
         </Key>
