@@ -2982,7 +2982,7 @@
             <Spanish>Debes llevar este paquete a %1</Spanish>
             <Russian></Russian>
             <German>Du musst dieses Paket bei %1 abliefern</German>
-            <French>Vous avez livré ce packet à %1</French>
+            <French>Vous avez livré ce courier à %1</French>
             <Italian>Devi consegnare questo pacco al %1</Italian>
             <Portuguese>Você deverá entregar esse pacote para %1</Portuguese>
             <Polish>Dostarcz tę przesyłkę do %1</Polish>
@@ -2993,7 +2993,7 @@
             <Spanish>LLeva el paquete a: %1</Spanish>
             <Russian></Russian>
             <German>Liefere dieses Paket bei %1 ab</German>
-            <French>Livrer ce paquet à %1</French>
+            <French>Livrer ce courier à %1</French>
             <Italian>Consegna questo pacco al %1</Italian>
             <Portuguese>Entregue esse pacote para %1</Portuguese>
             <Polish>Dostarcz przesyłkę do %1</Polish>
@@ -3004,7 +3004,7 @@
             <Spanish>Fallastes la misión, porque moristes.</Spanish>
             <Russian></Russian>
             <German>Du hast es nicht geschafft, das Paket abzuliefern, da du gestorben bist.</German>
-            <French>Vous avez omis de livrer le colis car vous êtes morts.</French>
+            <French>Vous avez omis de livrer le courier car vous êtes morts.</French>
             <Italian>Compra Oggetto</Italian>
             <Portuguese>Você falhou na tarefa de entrega pois você morreu.</Portuguese>
             <Polish>Nie dostarczyłeś przesyłki z uwagi na to że zmarłeś.</Polish>
