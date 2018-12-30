@@ -1,5 +1,5 @@
 ///Olegan///
-
+///////////
 
 // Following player
 ole_dogaupied = {
