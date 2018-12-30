@@ -33,7 +33,7 @@ if (life_is_alive && !life_is_arrested) then {
 };
 if (license_civ_dog) then {
 
-// Spawn dog
+// Spawn dog //
 OLE_dog = createAgent ["Fin_random_F", getPos player, [], 5, "CAN_COLLIDE"];
 
 // Disable animal behaviour
