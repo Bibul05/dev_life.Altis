@@ -34,8 +34,14 @@ if (life_is_alive && !life_is_arrested) then {
 if (license_civ_dog) then {
 hint "Votre chien vous fait la fête !";
 execVM "oledog\spawn.sqf";
+execVM "oledog\doginit.sqf";
 };
 
+if (license_civ_dog1) then {
+hint "Votre chien vous fait la fête !";
+execVM "oledog\spawn.sqf";
+execVM "oledog\doginit.sqf";
+};
 
 life_is_alive = true;
 player addRating 9999999;
