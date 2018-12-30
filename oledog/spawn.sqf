@@ -8,7 +8,7 @@ _target removeAction _action;
 
 
 
-if ((side player) == civilian) then {
+if (license_civ_dog) then {
 
 // Spawn dog
 OLE_dog = createAgent ["Fin_random_F", getPos player, [], 5, "CAN_COLLIDE"];
