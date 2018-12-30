@@ -472,6 +472,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -486,24 +504,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -27772,7 +27772,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={3730.8235,13.516937,13147.778};
-						angles[]={-0,4.4074821,0};
+						angles[]={0,4.4074821,0};
 					};
 					side="Civilian";
 					class Attributes
@@ -30282,7 +30282,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={13768.18,20.831802,18927.898};
-						angles[]={0,1.4769905,-0};
+						angles[]={0,1.4769905,0};
 					};
 					side="Civilian";
 					flags=4;
@@ -165158,7 +165158,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13767.936,20.83049,18927.125};
-				angles[]={0,3.8799262,-0};
+				angles[]={0,3.8799262,0};
 			};
 			side="Empty";
 			flags=4;
@@ -165174,7 +165174,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13768.266,20.83049,18926.834};
-				angles[]={0,3.8799262,-0};
+				angles[]={0,3.8799262,0};
 			};
 			side="Empty";
 			flags=4;
@@ -165190,7 +165190,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13768.587,20.830494,18926.506};
-				angles[]={0,3.8799262,-0};
+				angles[]={0,3.8799262,0};
 			};
 			side="Empty";
 			flags=4;
@@ -165206,7 +165206,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13768.886,20.8305,18926.195};
-				angles[]={0,3.9221332,-0};
+				angles[]={0,3.9221332,0};
 			};
 			side="Empty";
 			flags=4;
@@ -165222,7 +165222,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13769.224,20.830496,18925.916};
-				angles[]={0,3.8799262,-0};
+				angles[]={0,3.8799262,0};
 			};
 			side="Empty";
 			flags=4;
@@ -165292,8 +165292,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				init="this setObjectTexture [0,""textues\armalife""];";
-				name="Land_Billboard_03_action_F";
+				init="this setObjectTexture [0,""textues\armalife.paa""];";
 			};
 			id=5738;
 			type="Land_Billboard_03_action_F";
