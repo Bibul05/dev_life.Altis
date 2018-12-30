@@ -26,7 +26,7 @@
         <Key ID="STR_Shops_C_Rebel">
             <Original>Mohammed's Jihadi Shop</Original>
             <Czech>Mohamedův džihád Shop</Czech>
-            <French>Magasin Gangster</French>
+            <French>Magasin de traficant</French>
             <Spanish>Tienda Jihadi de Mohamed</Spanish>
             <Italian>Negozio della Jihad di Mohammed</Italian>
             <Russian></Russian>
@@ -96,7 +96,7 @@
             <Russian></Russian>
             <German>Rebellen Markt</German>
             <Italian>Mercato Ribelle</Italian>
-            <French>Marché Gagnster</French>
+            <French>Marché traficant</French>
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market Rebeliantów</Polish>
         </Key>
@@ -6586,7 +6586,7 @@
             <Spanish>Entrenamiento Rebelde</Spanish>
             <Russian></Russian>
             <German>Rebellenausbildung</German>
-            <French>Entrainement rebelle</French>
+            <French>Licence de traficant</French>
             <Italian>Licenza da Ribelle</Italian>
             <Portuguese>Treinamento Rebelde</Portuguese>
             <Polish>Trening rebelianta</Polish>
@@ -8287,7 +8287,7 @@
             <Spanish>No tienes Entrenamiento Rebelde!</Spanish>
             <Russian></Russian>
             <German>Du besitzt keine Rebellen Lizenz!</German>
-            <French>Vous n'avez pas encore d'entrainement rebelle!</French>
+            <French>Vous n'avez pas encore de licence de traficant!</French>
             <Italian>Devi essere ribelle per poter utilizzare questo negozio!</Italian>
             <Portuguese>Você não tem Treinamento Rebelde!</Portuguese>
             <Polish>Nie posiadasz treningu rebelianta!</Polish>
@@ -9040,7 +9040,7 @@
         <Key ID="STR_MAR_Rebel_Outpost">
             <Original>Rebel Outpost</Original>
             <Czech>Rebel Outpost</Czech>
-            <French>Avant-Poste Rebel</French>
+            <French>Cachette de traficant</French>
             <Spanish>Base Rebelde</Spanish>
             <Italian>Avamposto Ribelle</Italian>
             <Russian></Russian>
@@ -9689,7 +9689,7 @@
         <Key ID="STR_MAR_Rebel_Clothing_Shop">
             <Original>Rebel Clothing Shop</Original>
             <Czech>Rebel Oblečení Shop</Czech>
-            <French>Friperie Rebel</French>
+            <French>Vetement de traficant</French>
             <Spanish>Tienda de Ropa Rebelde</Spanish>
             <Italian>Rebel negozio di abbigliamento</Italian>
             <Russian></Russian>
@@ -9700,7 +9700,7 @@
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
             <Original>Rebel Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
-            <French>Vendeur d'armes rebel</French>
+            <French>Vendeur d'armes pour traficant</French>
             <Spanish>Tienda de Armas Rebeldes</Spanish>
             <Russian></Russian>
             <German>Rebellen Waffenladen</German>
@@ -9733,7 +9733,7 @@
         <Key ID="STR_MAR_Rebel_Market">
             <Original>Rebel Market</Original>
             <Czech>Rebel Market</Czech>
-            <French>Marché Rebel</French>
+            <French>Marché traficant</French>
             <Spanish>Mercado Rebelde</Spanish>
             <Italian>mercato Rebel</Italian>
             <Russian></Russian>
@@ -10353,7 +10353,7 @@
             <Czech>Rebel vozidla (není ozbrojený)</Czech>
             <Spanish>Vehículo Rebelde (No Armado)</Spanish>
             <Russian></Russian>
-            <French>Véhicule rebel non armé</French>
+            <French>Véhicule traficant non armé</French>
             <Portuguese>Veículo Rebelde(Não Armado)</Portuguese>
             <German>Rebelen Fahrzeug (nicht bewaffnet)</German>
             <Italian>Veicolo blindato(Non armato)</Italian>
@@ -10431,7 +10431,7 @@
             <Czech>Rebel zbraň</Czech>
             <Spanish>Arma Rebelde</Spanish>
             <Russian></Russian>
-            <French>Armes rebelles</French>
+            <French>Armes traficant</French>
             <Portuguese>Arma Rebelde</Portuguese>
             <German>Rebellen Waffe</German>
             <Italian>Arma Ribelle</Italian>
