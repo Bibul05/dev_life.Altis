@@ -16,6 +16,14 @@ class Licenses {
         side = "civ";
     };
 	
+	class dog1 {
+        variable = "dog1";
+        displayName = "STR_License_dog1";
+        price = 5000;
+        illegal = false;
+        side = "civ";
+    };
+	
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";

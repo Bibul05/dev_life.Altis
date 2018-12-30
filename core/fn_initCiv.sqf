@@ -32,30 +32,8 @@ if (life_is_alive && !life_is_arrested) then {
     };
 };
 if (license_civ_dog) then {
-
-// Spawn dog //
-OLE_dog = createAgent ["Fin_random_F", getPos player, [], 5, "CAN_COLLIDE"];
-
-// Disable animal behaviour
-OLE_dog setVariable ["BIS_fnc_animalBehaviour_disable", true];
-
-// Following loop
-0 = [OLE_dog] spawn {
-	params ["_dog"];
-
-	// Force dog to sprint
-	OLE_dog playMove "Dog_Sprint";
-	
-	while {alive OLE_dog} do 
-	{
-		OLE_dog moveTo getPos player;
-
-		sleep 0.5;
-	};
-};
-
 hint "Votre chien vous fait la fête !";
-execVM "oledog\doginit.sqf";
+execVM "oledog\spawn.sqf";
 };
 
 
