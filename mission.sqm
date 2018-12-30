@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={13836.091,48.573502,18936.566};
-		dir[]={-0.80620426,-0.58187115,-0.1081924};
-		up[]={-0.57682836,0.8131814,-0.077408709};
-		aside[]={-0.1330315,8.5871216e-007,0.99123627};
+		pos[]={13786.702,32.43285,18928.68};
+		dir[]={0.55482125,-0.6985448,0.4521679};
+		up[]={0.54156291,0.71547061,0.44136059};
+		aside[]={0.63183445,-3.4095137e-007,-0.77526468};
 	};
 };
 binarizationWanted=0;
@@ -472,6 +472,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -486,24 +504,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -165292,7 +165292,6 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0,""textures\armalife.paa""];}";
 			};
 			id=5738;
 			type="Land_Billboard_03_action_F";
