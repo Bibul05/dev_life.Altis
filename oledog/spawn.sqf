@@ -42,19 +42,19 @@ OLE_dog setVariable ["BIS_fnc_animalBehaviour_disable", true];
 if (license_civ_dog1) then {
 
 // Spawn dog
-OLE_dog = createAgent ["Alsatian_Black_F", getPos player, [], 5, "CAN_COLLIDE"];
+OLE_dog1 = createAgent ["Alsatian_Black_F", getPos player, [], 5, "CAN_COLLIDE"];
 
 // Disable animal behaviour
-OLE_dog setVariable ["BIS_fnc_animalBehaviour_disable", true];
+OLE_dog1 setVariable ["BIS_fnc_animalBehaviour_disable", true];
 
 // Following loop
-0 = [OLE_dog] spawn {
-	params ["_dog"];
+0 = [OLE_dog1] spawn {
+	params ["_dog1"];
 
 	// Force dog to sprint
 	OLE_dog playMove "Dog_Sprint";
 	
-	while {alive OLE_dog} do 
+	while {alive OLE_dog1} do 
 	{
 		OLE_dog moveTo getPos player;
 
@@ -67,4 +67,3 @@ if ((side player) == blufor) then {
 };
 
 hint "Vous avez récupéré votre chien";
-execVM "oledog\doginit.sqf";
