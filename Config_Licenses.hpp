@@ -8,6 +8,14 @@
 */
 class Licenses {
     //Civilian Licenses
+	class dog {
+        variable = "dog";
+        displayName = "STR_License_dog";
+        price = 5000;
+        illegal = false;
+        side = "civ";
+    };
+	
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
