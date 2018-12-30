@@ -1,6 +1,293 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
     <Package name="Shop_Names">
+	<Key ID="STR_JBOY_DOG_OnLoadName">
+            <English>JBOY Dog Demonstration</English>
+            <French>Démonstration de Chien JBOY</French>
+            <German>JBOY Hund Demonstration</German>
+            <Czech>Demonstrace JBOY Pes</Czech>
+            <Italian>Dimostrazione del Cane JBOY</Italian>
+            <Polish>Pokaz JBOY Psa</Polish>
+            <Portuguese>Demonstração do Cachorro JBOY</Portuguese>
+            <Russian>JBOY cобака демонстрации</Russian>
+            <Spanish>Demostración de Perro JBOY</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_OnLoadMission">
+            <English>Learn how to interact with your four legged friend.</English>
+            <French>Apprenez à dresser votre ami à quatre pattes.</French>
+            <German>Erfahren Sie, wie Sie mit Ihrem vierbeinigen Freund interagieren können.</German>
+            <Czech>Naučte se komunikovat se svým čtyřnohým přítelem.</Czech>
+            <Italian>Scopri come interagire con il tuo amico a quattro zampe.</Italian>
+            <Polish>Dowiedz się, jak współdziałać z czteroosobowym przyjacielem.</Polish>
+            <Portuguese>Aprenda a interagir com seu amigo de quatro patas.</Portuguese>
+            <Russian>Узнайте, как взаимодействовать с вашим четвероногим другом.</Russian>
+            <Spanish>Aprende a interactuar con tu amigo de cuatro patas.</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_overviewText">
+            <English>Learn how to interact with your four legged friend.</English>
+            <French>Apprenez à dresser votre ami à quatre pattes.</French>
+            <German>Erfahren Sie, wie Sie mit Ihrem vierbeinigen Freund interagieren können.</German>
+            <Czech>Naučte se komunikovat se svým čtyřnohým přítelem.</Czech>
+            <Italian>Scopri come interagire con il tuo amico a quattro zampe.</Italian>
+            <Polish>Dowiedz się, jak współdziałać z czteroosobowym przyjacielem.</Polish>
+            <Portuguese>Aprenda a interagir com seu amigo de quatro patas.</Portuguese>
+            <Russian>Узнайте, как взаимодействовать с вашим четвероногим другом.</Russian>
+            <Spanish>Aprende a interactuar con tu amigo de cuatro patas.</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_briefingName">
+            <English>JBOY Dog Demonstration</English>
+            <French>Démonstration de Chien JBOY</French>
+            <German>JBOY Hund Demonstration</German>
+            <Czech>Demonstrace JBOY Pes</Czech>
+            <Italian>Dimostrazione del Cane JBOY</Italian>
+            <Polish>Pokaz JBOY Psa</Polish>
+            <Portuguese>Demonstração do Cachorro JBOY</Portuguese>
+            <Russian>JBOY cобака демонстрации</Russian>
+            <Spanish>Demostración de Perro JBOY</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_KeyMenuTitle">
+            <English>Dog Commands</English>
+            <French>Ordres au chien</French>
+            <German>Hundekommandos</German>
+            <Czech>Pes Příkazy</Czech>
+            <Italian>Comandi del Cane</Italian>
+            <Polish>Polecenia dla Psa</Polish>
+            <Portuguese>Comandos Cachorro</Portuguese>
+            <Russian>Команды для собак</Russian>
+            <Spanish>Commandos Perro</Spanish>
+        </Key>
+        
+        <Key ID="STR_JBOY_DOG_AtEase">
+            <English>Dismiss</English>
+            <French>Assez</French>
+            <German>Entlassen</German>
+            <Czech>Propustit</Czech>
+            <Italian>Congeda</Italian>
+            <Polish>Uwalniać</Polish>
+            <Portuguese>Descartar</Portuguese>
+            <Russian>отклонять</Russian>
+            <Spanish>Despide</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Attack">
+            <English>Attack</English>
+            <French>Attaque</French>
+            <German>Fass</German>
+            <Czech>Záchvat</Czech>
+            <Italian>Attacca</Italian>
+            <Polish>Atak</Polish>
+            <Portuguese>Ataque</Portuguese>
+            <Russian>aтака</Russian>
+            <Spanish>Ataca</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Detain">
+            <English>Detain</English>
+            <French>Attrape</French>
+            <German>Festsetzen</German>
+            <Czech>Zadržet</Czech>
+            <Italian>Fermalo</Italian>
+            <Polish>Przytrzymać</Polish>
+            <Portuguese>Detenha</Portuguese>
+            <Russian>задержать</Russian>
+            <Spanish>Lo detiene</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Disengage">
+            <English>Disengage!</English>
+            <French>Dégage!</French>
+            <German>Hör auf</German>
+            <Czech>Přestaň</Czech>
+            <Italian>Disimpegnare</Italian>
+            <Polish>Przestań</Polish>
+            <Portuguese>Desengate</Portuguese>
+            <Russian>разъединения</Russian>
+            <Spanish>Déjalo</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_DropIt">
+            <English>Drop it</English>
+            <French>Lâche!</French>
+            <German>Aus</German>
+            <Czech>Zahoď to</Czech>
+            <Italian>Abbandonalo</Italian>
+            <Polish>Zostaw</Polish>
+            <Portuguese>Soltá-lo</Portuguese>
+            <Russian>бросить это</Russian>
+            <Spanish>Suéltalo</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Fetch">
+            <English>Fetch</English>
+            <French>Rapporte</French>
+            <German>Bring</German>
+            <Czech>Vynést</Czech>
+            <Italian>Riporta</Italian>
+            <Polish>Aport</Polish>
+            <Portuguese>Trazê-lo</Portuguese>
+            <Russian>приносить</Russian>
+            <Spanish>Tráe</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_GetIn">
+            <English>Get in</English>
+            <French>Monte</French>
+            <German>Einsteigen</German>
+            <Czech>Zadejte vozidlo</Czech>
+            <Italian>Entra</Italian>
+            <Polish>Pokładzie pojazdu</Polish>
+            <Portuguese>Entrar em veículo</Portuguese>
+            <Russian>Садись в</Russian>
+            <Spanish>Sube al vehículo</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_GetInShort">
+            <English>Get in</English>
+            <French>Monte</French>
+            <German>Einsteigen</German>
+            <Czech>Zadejte vozidlo</Czech>
+            <Italian>Entra</Italian>
+            <Polish>Pokład</Polish>
+            <Portuguese>entrar veículo</Portuguese>
+            <Russian>Садись в</Russian>
+            <Spanish>Sube al vehículo</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_GetOut">
+            <English>Get out</English>
+            <French>Descend</French>
+            <German>Aussteigen</German>
+            <Czech>Vystoupit</Czech>
+            <Italian>Esci</Italian>
+            <Polish>Wyładować</Polish>
+            <Portuguese>Desembarcar </Portuguese>
+            <Russian>вылазь из</Russian>
+            <Spanish>Salga del vehículo</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_GetOutShort">
+            <English>Get out</English>
+            <French>Descend</French>
+            <German>Aussteigen</German>
+            <Czech>Vystoupit</Czech>
+            <Italian>Esci</Italian>
+            <Polish>Wyładować</Polish>
+            <Portuguese>Desembarcar</Portuguese>
+            <Russian>вылазь из</Russian>
+            <Spanish>Salga del vehículo</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Heel">
+            <English>Heel</English>
+            <French>Au Pied</French>
+            <German>Bei Fuß</German>
+            <Czech>Vytvořte na mně</Czech>
+            <Italian>Qui</Italian>
+            <Polish>Noga</Polish>
+            <Portuguese>Salto</Portuguese>
+            <Russian>Ryadom so mnoy</Russian>
+            <Spanish>Junto</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_MoveThere">
+            <English>Move there</English>
+            <French>Va là-bas</French>
+            <German>Geh dorthin</German>
+            <Czech>Přesunout se tam</Czech>
+            <Italian>Vai là</Italian>
+            <Polish>Idź tam</Polish>
+            <Portuguese>Vá lá</Portuguese>
+            <Russian>пойти туда</Russian>
+            <Spanish>Vas alli</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Sit">
+            <English>Sit</English>
+            <French>Assis</French>
+            <German>Sitz</German>
+            <Czech>Sednout</Czech>
+            <Italian>Seduto</Italian>
+            <Polish>Siad</Polish>
+            <Portuguese>Senta</Portuguese>
+            <Russian>сидеть</Russian>
+            <Spanish>Siéntate</Spanish>
+       </Key>
+        <Key ID="STR_JBOY_DOG_Sitrep">
+            <English>SITREP</English>
+            <French>Aboie</French>
+            <German>Lagebericht</German>
+            <Czech>Mluvit</Czech>
+            <Italian>Abbaia</Italian>
+            <Polish>Mówić</Polish>
+            <Portuguese>Fale</Portuguese>
+            <Russian>лаять</Russian>
+            <Spanish>Ladra</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Stay">
+            <English>Stay</English>
+            <French>Pas bouger</French>
+            <German>Bleib</German>
+            <Czech>Zůstat</Czech>
+            <Italian>Resta</Italian>
+            <Polish>Zostać</Polish>
+            <Portuguese>Fique</Portuguese>
+            <Russian>оставайся там</Russian>
+            <Spanish>Quédate</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Stop">
+            <English>Stop</English>
+            <French>Stop</French>
+            <German>Halt</German>
+            <Czech>Stůj</Czech>
+            <Italian>Alt</Italian>
+            <Polish>Postój</Polish>
+            <Portuguese>parar</Portuguese>
+            <Russian>стой</Russian>
+            <Spanish>Alto</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_Track">
+            <English>Track</English>
+            <French>Suit </French>
+            <German>Such</German>
+            <Czech>Sledovat</Czech>
+            <Italian>Fiuta</Italian>
+            <Polish>tropić</Polish>
+            <Portuguese>Śledzić zapach</Portuguese>
+            <Russian>Следить за запахом</Russian>
+            <Spanish>Sigue el olor</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_TrackTheScent">
+            <English>Track the scent</English>
+            <French>Cherche</French>
+            <German>Such</German>
+            <Czech>Sledovat vůni</Czech>
+            <Italian>Fiuta il profumo</Italian>
+            <Polish>Śledzić zapach</Polish>
+            <Portuguese>Siga o perfume</Portuguese>
+            <Russian>отслеживать аромат</Russian>
+            <Spanish>Sigue el olor</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_PointAtVehicle">
+            <English>You must point at a vehicle within 30 meters for dog to understand.</English>
+            <French>Vous devez pointer sur un véhicule à moins de 30 mètres pour chien à comprendre.</French>  No <French>Vous devez montrer un véhicule à moins de 30 mètres pour que le chien comprenne.</French>
+            <German>Sie müssen innerhalb von 30 Metern an einem Fahrzeug Punkt für Hund zu verstehen.</German>
+            <Czech>Je třeba upozornit na vozidlo do 30 metrů za psa porozumět.</Czech>
+            <Italian>È necessario puntare ad un veicolo entro 30 metri per il cane a capire.</Italian>
+            <Polish>Należy wskazać na pojeździe ciągu 30 metrów dla psa do zrozumienia.</Polish>
+            <Portuguese>Você deve apontar para um veículo Dentro de 30 metros para o cão de entender.</Portuguese>
+            <Russian>Вы должны указать на транспортное средство в течение 30 метров для собаки, чтобы понять.</Russian>
+            <Spanish>Debe en el punto de un vehículo dentro de los 30 metros para perros de entender.</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_NotTrainedForVehicle">
+            <English>Dog is not trained for this vehicle type:</English>
+            <French>Le chien n'a pas été formé pour le type de véhicule:</French>
+            <German>Hund ist nicht für esta Fahrzeugtyp trainiert:</German>
+            <Czech>Pes nebyl vyškolen pro typ esta vozidla:</Czech>
+            <Italian>Cane non è stato allenato per tipo di veicolo esta:</Italian>
+            <Polish>Pies nie został przeszkolony do typu pojazdu esta:</Polish>
+            <Portuguese>Cão não tenha sido treinado para o tipo de veículo está em:</Portuguese>
+            <Russian>Собака не была обучена для типа Эста автомобиля:</Russian>
+            <Spanish>El perro no está entrenado para este tipo de vehículo.:</Spanish>
+        </Key>
+        <Key ID="STR_JBOY_DOG_placeholder">
+            <English></English>
+            <French></French>
+            <German></German>
+            <Czech></Czech>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese></Portuguese>
+            <Russian></Russian>
+            <Spanish></Spanish>
+        </Key>
         <Key ID="STR_Shops_C_Bruce">
             <Original>Bruce's Outback Outfits</Original>
             <Czech>Bruceovy Outback Oblečení</Czech>

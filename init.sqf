@@ -5,6 +5,7 @@
     Description:
     
 */
+
 StartProgress = false;
 
 [] execVM "briefing.sqf"; //Load Briefing

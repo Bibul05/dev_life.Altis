@@ -15,6 +15,8 @@ class CfgServer {
     */
 };
 
+
+
 class RscTitles {
     #include "dialog\progress.hpp"
     #include "dialog\hud_nameTags.hpp"
@@ -73,7 +75,7 @@ class CfgSounds {
         name = "UnlockCarSound";
         sound[] = {"\sounds\unlock.ogg", 0.25, 1};
         titles[] = {};
-    };
+    };	
 };
 
 class CfgDebriefing {
