@@ -36,7 +36,7 @@ OLE_dog setVariable ["BIS_fnc_animalBehaviour_disable", true];
 		sleep 0.5;
 	};
 };
-
+};
 //Alsatian_Black_F// 
 
 if (license_civ_dog1) then {
@@ -61,7 +61,7 @@ OLE_dog1 setVariable ["BIS_fnc_animalBehaviour_disable", true];
 		sleep 0.5;
 	};
 };
-
+};
 if ((side player) == blufor) then {
     hint "Les gendarme ne peuvent pas acheter de chien ici !";
 };
