@@ -1,0 +1,27 @@
+														//Devloppement AltisBoomLife//
+
+
+														
+														Version Actuel : 0.8.9
+
+Version 0.9 : Mettre à niveau le mapping.
+
+Version 0.9.1 : Mettre à niveau les shop.
+
+Version 0.9.2 : Mettre à niveau le farm.
+
+Version 0.9.3 : Mettre à niveau les addons.
+
+Version 0.9.4 : Tester et corriger les bugs connus.
+
+Version 0.9.5 : Mettre à niveau les traductions (stringable).
+
+Version 0.9.6 : Etablir la version 1.0 du script "Ole_dog".
+
+Version 0.9.7 : Ajouter une serie de script.(Ex : carte d'identité, cacher les farms illégaux pour civil et gendarme etc ...). Listez si neccessaire.
+
+Version 0.9.8 : Personnaliser un message de bienvenue.
+
+Version 0.9.9 : Création du forum, regle etc ... Ajouter l'addons au téléchargement.
+
+Version Alpha 1.0 : Test in game (Simulation RP).
