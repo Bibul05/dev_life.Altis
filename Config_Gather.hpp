@@ -66,6 +66,12 @@ Example 2:
 */
 
     class Minerals {
+		class sac_argent1 {
+            amount = 2;
+            zones[] = { "fed_reserve" };
+            item = "autorisation";
+            mined[] = { {"sac_argent1",0,25},{"sac_argent2",0,25},{"sac_argent3",0,25},{"sac_argent4",0,25} };
+        };
         class copper_unrefined {
             amount = 2;
             zones[] = { "copper_mine" };

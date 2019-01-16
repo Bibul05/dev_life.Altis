@@ -8,10 +8,17 @@
 */
 class Licenses {
     //Civilian Licenses
+	class convoyeur {
+        variable = "convoyeur";
+        displayName = "STR_License_convoyeur";
+        price = 1500;
+        illegal = false;
+        side = "civ";
+    };
 	class dog {
         variable = "dog";
         displayName = "STR_License_dog";
-        price = 5000;
+        price = 1500;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +26,7 @@ class Licenses {
 	class dog1 {
         variable = "dog1";
         displayName = "STR_License_dog1";
-        price = 5000;
+        price = 1500;
         illegal = false;
         side = "civ";
     };

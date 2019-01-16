@@ -95,6 +95,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "glass" };
     };
+	
+	class cheque  {
+        name = "STR_Shops_convoyeur";
+        side = "civ";
+        license = "convoyeur";
+        level[] = { "", "", -1, "" };
+        items[] = { "cheque" };
+    };
 
     class iron  {
         name = "STR_Shops_Minerals";
@@ -170,6 +178,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_pickaxe.paa";
+    };
+	
+	 class autorisation {
+        variable = "autorisation";
+        displayName = "STR_autorisation";
+        weight = 1;
+        buyPrice = 0;
+        sellPrice = 0;
+        illegal = false;
+        edible = -1;
+        icon = "";
     };
 
     class defibrillator {
@@ -305,6 +324,56 @@ class VirtualItems {
     };
 
     //Mined Items
+	class sac_argent1 {
+        variable = "sac_argent1";
+        displayName = "STR_sac_argent1";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	class sac_argent2 {
+        variable = "sac_argent2";
+        displayName = "STR_sac_argent2";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	class sac_argent3 {
+        variable = "sac_argent3";
+        displayName = "STR_sac_argent3";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	class sac_argent4 {
+        variable = "sac_argent4";
+        displayName = "STR_sac_argent4";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	class Cheque {
+        variable = "Cheque";
+        displayName = "STR_Cheque";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = 50000;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
     class oil_unprocessed {
         variable = "oilUnprocessed";
         displayName = "STR_Item_OilU";

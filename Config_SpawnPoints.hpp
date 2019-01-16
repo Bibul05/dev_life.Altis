@@ -21,7 +21,7 @@
 class CfgSpawnPoints {
     class Civilian {
         class Kavala {
-            displayName = "Kavala";
+            displayName = "Neochorie";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "rebel", false } };
@@ -45,7 +45,7 @@ class CfgSpawnPoints {
         };
 
         class Sofia {
-            displayName = "Sofia";
+            displayName = "Kavala";
             spawnMarker = "civ_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
