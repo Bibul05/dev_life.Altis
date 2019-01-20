@@ -213,20 +213,23 @@ class Clothing {
         license = "convoyeur";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "R3F_uniform_CQB", "", 4900, { "", "", -1 } }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, { "", "", -1 } }
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "R3F_casquette_CQB", "", 4900, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 4900, { "", "", -1 } }
+            { "CUP_V_PMC_CIRAS_Black_Veh", "", 4900, { "", "", -1 } }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_LegStrapBag_black_F", "", 4900, { "", "", -1 } }
         };
     };
 

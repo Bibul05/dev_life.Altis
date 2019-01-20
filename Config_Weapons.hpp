@@ -115,20 +115,28 @@ class WeaponShops {
         license = "convoyeur";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 150, -1 },
+            { "tf_anprc148jem_1", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
             { "ItemWatch", "", 50, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "NVGoggles", "", 2000, 980 },
-            { "Chemlight_red", "", 300, -1 },
-            { "Chemlight_yellow", "", 300, 50 },
-            { "Chemlight_green", "", 300, 50 },
-            { "Chemlight_blue", "", 300, 50 }
+            { "CUP_smg_MP5A5", "", 300, -1 },
+            { "R3F_M4S90", "", 300, 50 },
+            { "SMG_03C_black", "", 300, 50 },
+            { "R3F_G17", "", 300, 50 }
         };
-        mags[] = {};
-        accs[] = {};
+        mags[] = {
+			 { "CUP_30Rnd_9x19_MP5", "", 25 },
+			 { "R3F_7Rnd_M4S90", "", 25 },
+			 { "50Rnd_570x28_SMG_03", "", 25 },
+			 { "R3F_17Rnd_9x19_G17", "", 25 }
+		};
+        accs[] = {
+			{ "R3F_EOTECH", "", 25 },
+			{ "CUP_optic_CompM4", "", 25 }
+		};
     };
 
     class f_station_store {
