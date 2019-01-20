@@ -68,6 +68,14 @@ class CarShops {
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
+	
+	class civ_brings {
+        side = "civ";
+        vehicles[] = {
+            { "chVario_loomis", { "", "", -1 } },
+			{ "chrenault_bdf", { "", "", -1 } }
+        };
+    };
 
     class reb_car {
         side = "civ";
@@ -160,6 +168,20 @@ class LifeCfgVehicles {
         vItemSpace = -1;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = -1;
+        textures[] = {};
+    };
+	
+	class chVario_loomis {
+        vItemSpace = 100;
+        licenses[] = { {"convoyeur"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class chrenault_bdf {
+        vItemSpace = 200;
+        licenses[] = { {"convoyeur"}, {""}, {""}, {""} };
+        price = 1000;
         textures[] = {};
     };
 

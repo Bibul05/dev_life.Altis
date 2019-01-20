@@ -12,6 +12,18 @@
             <Italian>Emporio di Bruce</Italian>
             <German>Bruce Outback Outfits</German>
         </Key>
+		<Key ID="STR_MAR_Brings_shop">
+            <Original>Bring's</Original>
+            <French>Garage</French>
+        </Key>
+		<Key ID="STR_Shops_convoyeur_Gun">
+            <Original>Bring's</Original>
+            <French>Armurie</French>
+        </Key>
+		<Key ID="STR_Shops_convoyeur_tenue">
+            <Original>Bring's</Original>
+            <French>Vestiaire</French>
+        </Key>
         <Key ID="STR_Shops_C_Police">
             <Original>Altis Police Department Shop</Original>
             <Czech>Altis policejní oddělení Shop</Czech>

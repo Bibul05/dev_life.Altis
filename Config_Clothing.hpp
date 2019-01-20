@@ -207,6 +207,28 @@ class Clothing {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
         };
     };
+	
+	class convoyeurtenue {
+        title = "STR_Shops_C_Gun";
+        license = "convoyeur";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, { "", "", -1 } }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "V_Rangemaster_belt", "", 4900, { "", "", -1 } }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+        };
+    };
 
     class gang_clothing {
         title = "STR_Shops_C_Gang";

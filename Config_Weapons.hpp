@@ -107,6 +107,29 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
+	
+	//convoyeur de fonds
+	class armurieconvoyeur {
+        name = "Armurie convoyeur";
+        side = "civ";
+        license = "convoyeur";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ItemMap", "", 50, 35 },
+            { "ItemCompass", "", 50, 25 },
+            { "ItemWatch", "", 50, -1 },
+            { "FirstAidKit", "", 150, 65 },
+            { "NVGoggles", "", 2000, 980 },
+            { "Chemlight_red", "", 300, -1 },
+            { "Chemlight_yellow", "", 300, 50 },
+            { "Chemlight_green", "", 300, 50 },
+            { "Chemlight_blue", "", 300, 50 }
+        };
+        mags[] = {};
+        accs[] = {};
+    };
 
     class f_station_store {
         name = "Altis Fuel Station Store";
