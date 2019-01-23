@@ -178,8 +178,8 @@ class WeaponShops {
             { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
+            { "CUP_30Rnd_9x19_MP5", "", 25 },
+            { "R3F_17Rnd_9x19_G17", "", 45 }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650 }
@@ -192,23 +192,19 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-            { "arifle_MX_F", "", 35000, 7500 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "CUP_smg_MP5A5_flashlight", "", 35000, 7500 },
+            { "CUP_arifle_G36C", "", 30000, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "acc_flashlight", "", 750, 100 },
-            { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "R3F_G17", "", 750, 100 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 }
+            { "CUP_30Rnd_556x45_G36", "", 130 },
+            { "CUP_30Rnd_9x19_MP5", "", 250 },
+			{ "R3F_17Rnd_9x19_G17", "", 250 }
         };
         accs[] = {
             { "acc_flashlight", "", 750 },
-            { "optic_Holosight", "", 1200 },
-            { "optic_Arco", "", 2500 },
-            { "muzzle_snds_H", "", 2750 }
+            { "CUP_optic_HoloBlack", "", 1200 }
         };
     };
 

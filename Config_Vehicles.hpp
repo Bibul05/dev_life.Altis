@@ -109,11 +109,11 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", { "", "", -1 } },
-            { "C_SUV_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } }
+            { "kangooII1_gn", { "life_coplevel", "SCALAR", 1 } },
+            { "Clio_GN", { "life_coplevel", "SCALAR", 2 } },
+            { "Trafic_gn", { "life_coplevel", "SCALAR", 2 } },
+            { "Megane_Estate_gn", { "life_coplevel", "SCALAR", 2 } },
+            { "chmgrs", { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
@@ -168,6 +168,41 @@ class LifeCfgVehicles {
         vItemSpace = -1;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = -1;
+        textures[] = {};
+    };
+	
+	class kangooII1_gn {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class Clio_GN {
+        vItemSpace = 20;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class Trafic_gn {
+        vItemSpace = 80;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class Megane_Estate_gn {
+        vItemSpace = 40;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class chmgrs {
+        vItemSpace = 15;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 0;
         textures[] = {};
     };
 	
