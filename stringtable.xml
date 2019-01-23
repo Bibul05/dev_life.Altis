@@ -12,6 +12,10 @@
             <Italian>Emporio di Bruce</Italian>
             <German>Bruce Outback Outfits</German>
         </Key>
+		<Key ID="STR_MAR_farmargent">
+            <Original>Bring's</Original>
+            <French>Stockage d'argent</French>
+        </Key>
 		<Key ID="STR_MAR_Brings_shop">
             <Original>Bring's</Original>
             <French>Garage</French>
@@ -9074,7 +9078,7 @@
         <Key ID="STR_MAR_Rebel_Outpost">
             <Original>Rebel Outpost</Original>
             <Czech>Rebel Outpost</Czech>
-            <French>Cachette de traficant</French>
+            <French>Ville Rebelle</French>
             <Spanish>Base Rebelde</Spanish>
             <Italian>Avamposto Ribelle</Italian>
             <Russian></Russian>

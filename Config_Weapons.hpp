@@ -166,11 +166,11 @@ class WeaponShops {
         name = "Altis Cop Shop";
         side = "cop";
         license = "";
-        level[] = { "", "", -1, "" };
+        level[] = { "life_coplevel", "SCALAR", 1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-            { "hgun_P07_F", "", 7500, 1500 },
+            { "CUP_smg_MP5A5_flashlight", "", 20000, 7500 },
+            { "hgun_P07_snds_F", "Tazer", 2000, 650 },
+            { "R3F_G17", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
