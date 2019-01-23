@@ -26,12 +26,12 @@
         </Key>
 		<Key ID="STR_Shops_convoyeur_tenue">
             <Original>Bring's</Original>
-            <French>Vestiaire</French>
+            <French>Vestiaires</French>
         </Key>
         <Key ID="STR_Shops_C_Police">
             <Original>Altis Police Department Shop</Original>
             <Czech>Altis policejní oddělení Shop</Czech>
-            <French>Vestiarie de la Gendarmerie</French>
+            <French>Vestiaires de la Gendarmerie</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>
             <Russian></Russian>
             <Portuguese>Loja de Roupas Policiais</Portuguese>
@@ -53,7 +53,7 @@
         <Key ID="STR_Shops_C_Diving">
             <Original>Steve's Diving Shop</Original>
             <Czech>Steve je potápění obchod</Czech>
-            <French>Magasin de plongé</French>
+            <French>Magasin de plongée</French>
             <Spanish>Tienda de Buceo</Spanish>
             <Italian>Negozio Sub di Steve</Italian>
             <Russian></Russian>
@@ -79,7 +79,7 @@
             <Russian></Russian>
             <German>Billy Joe Schusswaffen</German>
             <Italian>Armeria di Billy Joe</Italian>
-            <French>Armurier</French>
+            <French>Armurerie</French>
             <Portuguese>Armas de fogo Billy Joe</Portuguese>
             <Polish>Broń palna Billy Joe</Polish>
         </Key>
@@ -101,7 +101,7 @@
             <Russian></Russian>
             <German>Altis Markt</German>
             <Italian>Mercato</Italian>
-            <French>Marché</French>
+            <French>Marché d'Altis</French>
             <Portuguese>Mercado</Portuguese>
             <Polish>Market Altis</Polish>
         </Key>
@@ -112,7 +112,7 @@
             <Russian></Russian>
             <German>Rebellen Markt</German>
             <Italian>Mercato Ribelle</Italian>
-            <French>Marché traficant</French>
+            <French>Marché Traficant</French>
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market Rebeliantów</Polish>
         </Key>
@@ -123,7 +123,7 @@
             <Russian></Russian>
             <German>Gang Markt</German>
             <Italian>Mercato Gang</Italian>
-            <French>Marché de Gang</French>
+            <French>Marché des Gangs</French>
             <Portuguese>Mercado da Gangue</Portuguese>
             <Polish>Market Gangu</Polish>
         </Key>
@@ -134,7 +134,7 @@
             <Russian></Russian>
             <German>Gang Kleidung</German>
             <Italian>Gang Abbigliamento</Italian>
-            <French>Vêtements de Gang</French>
+            <French>Vêtements des Gangs</French>
             <Portuguese>Roupa Gang</Portuguese>
             <Polish>Gang Odzież</Polish>
         </Key>
