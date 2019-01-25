@@ -28,8 +28,36 @@ class ProcessAction {
     class diamond {
         MaterialsReq[] = {{"diamond_uncut",1}};
         MaterialsGive[] = {{"diamond_cut",1}};
-        Text = "STR_Process_Diamond";
+        Text = "STR_Process_diamond";
         //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+	
+	class ArgentA{
+        MaterialsReq[] = {{"sac_argent1",1}};
+        MaterialsGive[] = {{"sac_argent2",1}};
+        Text = "STR_Process_argentA";
+        NoLicenseCost = 1350;
+    };
+	
+	class ArgentP {
+        MaterialsReq[] = {{"sac_argent2",1}};
+        MaterialsGive[] = {{"sac_argent3",1}};
+        Text = "STR_Process_argentP";
+        NoLicenseCost = 1350;
+    };
+	
+	class ArgentK {
+        MaterialsReq[] = {{"sac_argent3",1}};
+        MaterialsGive[] = {{"sac_argent4",1}};
+        Text = "STR_Process_argentK";
+        NoLicenseCost = 1350;
+    };
+	
+	class ArgentN {
+        MaterialsReq[] = {{"sac_argent4",1}};
+        MaterialsGive[] = {{"cheque",1}};
+        Text = "STR_Process_argentN";
         NoLicenseCost = 1350;
     };
 

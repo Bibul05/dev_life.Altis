@@ -12,6 +12,22 @@
             <Italian>Emporio di Bruce</Italian>
             <German>Bruce Outback Outfits</German>
         </Key>
+		<Key ID="STR_Process_argentA">
+            <Original>Bring's</Original>
+            <French>Remplissage de l'ATM</French>
+        </Key>
+		<Key ID="STR_Process_argentP">
+            <Original>Bring's</Original>
+            <French>Remplissage de l'ATM</French>
+        </Key>
+		<Key ID="STR_Process_argentK">
+            <Original>Bring's</Original>
+            <French>Remplissage de l'ATM</French>
+        </Key>
+		<Key ID="STR_Process_argentN">
+            <Original>Bring's</Original>
+            <French>Remplissage de l'ATM</French>
+        </Key>
 		<Key ID="STR_MAR_farmargent">
             <Original>Bring's</Original>
             <French>Stockage d'argent</French>
@@ -27,6 +43,30 @@
 		<Key ID="STR_Shops_convoyeur_tenue">
             <Original>Bring's</Original>
             <French>Vestiaires</French>
+        </Key>
+		<Key ID="STR_sac_argent1">
+            <Original>Bring's</Original>
+            <French>Argent</French>
+        </Key>
+		<Key ID="STR_sac_argent2">
+            <Original>Bring's</Original>
+            <French>Argent</French>
+        </Key>
+		<Key ID="STR_sac_argent3">
+            <Original>Bring's</Original>
+            <French>Argent</French>
+        </Key>
+		<Key ID="STR_sac_argent4">
+            <Original>Bring's</Original>
+            <French>Argent</French>
+        </Key>
+		<Key ID="STR_Cheque">
+            <Original>Bring's</Original>
+            <French>Chèque de livraison</French>
+        </Key>
+		<Key ID="STR_MAR_farmargent">
+            <Original>Bring's</Original>
+            <French>Stockage d'argent</French>
         </Key>
         <Key ID="STR_Shops_C_Police">
             <Original>Altis Police Department Shop</Original>
