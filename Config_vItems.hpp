@@ -101,7 +101,7 @@ class VirtualShops {
         side = "civ";
         license = "convoyeur";
         level[] = { "", "", -1, "" };
-        items[] = { "cheque" };
+        items[] = { "cheque","autorisation" };
     };
 
     class iron  {
@@ -184,7 +184,7 @@ class VirtualItems {
         variable = "autorisation";
         displayName = "STR_autorisation";
         weight = 1;
-        buyPrice = 0;
+        buyPrice = 200;
         sellPrice = 0;
         illegal = false;
         edible = -1;

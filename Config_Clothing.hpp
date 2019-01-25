@@ -189,7 +189,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "R3F_uniform_CQB", "", 4900, { "", "", -1 } }
+			{ "TRYK_U_B_wh_blk_Rollup_CombatUniform", "", 4900, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -200,11 +200,12 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "CUP_V_PMC_CIRAS_Black_Veh", "", 4900, { "", "", -1 } }
+            { "TRYK_V_Bulletproof_BLK", "", 4900, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-			{ "B_LegStrapBag_black_F", "", 4900, { "", "", -1 } }
+			{ "B_LegStrapBag_black_F", "", 4900, { "", "", -1 } },
+			{ "TRYK_B_Belt_BLK", "", 4900, { "", "", -1 } }
         };
     };
 

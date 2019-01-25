@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=191;
+		nextID=219;
 	};
 	class Camera
 	{
-		pos[]={3728.1182,61.254776,13072.859};
-		dir[]={-0.57143229,-0.63923252,-0.51473582};
-		up[]={-0.47495919,0.76899987,-0.42783499};
-		aside[]={-0.66931719,-4.4121407e-007,0.74304438};
+		pos[]={12679.378,55.472603,14736.177};
+		dir[]={0.098093867,-0.59541363,0.79740906};
+		up[]={0.072697312,0.80341899,0.59095967};
+		aside[]={0.9925195,-1.7018465e-008,-0.12209541};
 	};
 };
 binarizationWanted=0;
@@ -2179,7 +2179,7 @@ class Mission
 			position[]={11577.764,23.204569,11906.58};
 			name="air_g_1";
 			type="Empty";
-			angle=113.59848;
+			angle=113.59846;
 			id=145;
 		};
 		class Item143
@@ -21770,6 +21770,7 @@ class Mission
 			};
 			id=758;
 			type="Land_CashDesk_F";
+			atlOffset=0.19405365;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -32274,6 +32275,7 @@ class Mission
 					};
 					id=1089;
 					type="C_Nikos_aged";
+					atlOffset=0.20879364;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -46790,7 +46792,7 @@ class Mission
 			};
 			id=1701;
 			type="Land_Radar_Small_F";
-			atlOffset=0.014593124;
+			atlOffset=0.014594078;
 		};
 		class Item1028
 		{
@@ -105253,7 +105255,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2000;
 			b=50;
-			angle=228.96272;
+			angle=228.96269;
 			id=5910;
 		};
 		class Item1977
@@ -105400,7 +105402,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2000;
 			b=50;
-			angle=228.96274;
+			angle=228.96271;
 			id=5977;
 			atlOffset=0.00012969971;
 		};
@@ -146506,7 +146508,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="call{this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_convoyeur_Gun"",life_fnc_weaponShopMenu,""armurieconvoyeur"",0,false,false,"""",' license_civ_convoyeur && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_convoyeur_tenue"",life_fnc_clothingMenu,""convoyeurtenue"",0,false,false,"""",' license_civ_convoyeur && playerSide isEqualTo civilian'];}";
+						init="call{this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_convoyeur_Gun"",life_fnc_weaponShopMenu,""armurieconvoyeur"",0,false,false,"""",' license_civ_convoyeur && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_convoyeur_tenue"",life_fnc_clothingMenu,""convoyeurtenue"",0,false,false,"""",' license_civ_convoyeur && playerSide isEqualTo civilian']; this addAction[localize""STR_Shops_convoyeur"",life_fnc_virt_menu,""cheque""]; }";
 						disableSimulation=1;
 					};
 					id=7850;
@@ -148763,7 +148765,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3692.4868,10.219613,13158.334};
+				position[]={3692.2634,10.209117,13158.511};
 				angles[]={0,0,6.2823396};
 			};
 			areaSize[]={1,-1,1};
@@ -149245,7 +149247,7 @@ class Mission
 			};
 			id=8114;
 			type="xcam_mainroad_W10_A2_292_R500";
-			atlOffset=0.0044651031;
+			atlOffset=0.0044565201;
 		};
 		class Item2854
 		{

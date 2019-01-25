@@ -121,7 +121,7 @@ class WeaponShops {
             { "ItemCompass", "", 50, 25 },
             { "ItemWatch", "", 50, -1 },
             { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
+            { "CUP_sgun_M1014", "", 2000, 980 },
             { "CUP_smg_MP5A5", "", 300, -1 },
             { "R3F_M4S90", "", 300, 50 },
             { "SMG_03C_black", "", 300, 50 },
@@ -131,7 +131,8 @@ class WeaponShops {
 			 { "CUP_30Rnd_9x19_MP5", "", 25 },
 			 { "R3F_7Rnd_M4S90", "", 25 },
 			 { "50Rnd_570x28_SMG_03", "", 25 },
-			 { "R3F_17Rnd_9x19_G17", "", 25 }
+			 { "R3F_17Rnd_9x19_G17", "", 25 },
+			 { "CUP_8Rnd_B_Beneli_74Slug", "", 25 }
 		};
         accs[] = {
 			{ "R3F_EOTECH", "", 25 },
