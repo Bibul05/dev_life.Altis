@@ -12,6 +12,22 @@
             <Italian>Emporio di Bruce</Italian>
             <German>Bruce Outback Outfits</German>
         </Key>
+		<Key ID="STR_License_Artisan">
+            <Original>Bring's</Original>
+            <French>Artisan</French>
+        </Key>
+		<Key ID="STR_License_Routier">
+            <Original>Bring's</Original>
+            <French>Routier</French>
+        </Key>
+		<Key ID="STR_License_Agriculteur">
+            <Original>Bring's</Original>
+            <French>Agriculteur</French>
+        </Key>
+		<Key ID="STR_License_Traficant">
+            <Original>Bring's</Original>
+            <French>Traficant de drogue</French>
+        </Key>
 		<Key ID="STR_License_gangster">
             <Original>Bring's</Original>
             <French>gangster</French>
@@ -9395,7 +9411,7 @@
         <Key ID="STR_MAR_DMV">
             <Original>DMV</Original>
             <Czech>DMV</Czech>
-            <French>Magasin de licences</French>
+            <French>Pôle emploi</French>
             <Spanish>Registro de Licencias</Spanish>
             <Russian></Russian>
             <German>Zulassungstelle für Lizenzen</German>
