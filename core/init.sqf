@@ -160,3 +160,16 @@ if (life_HC_isActive) then {
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "----------------------------------------------------------------------------------------------------";
+//Hotel des ventes
+waitUntil {!isNil "vAH_loaded"};
+private["_total","_uid","_toDel"];
+_total = 0;
+_toDel = [];
+_uid = getPlayerUID player;
+{if ((_x select 5 IsEqualto _uid) && (_x select 7 IsEqualto 2)) then {_total = _total + (_x select 4);_toDel pushBack (_x select 0)};}forEach all_ah_items;
+
+ if (_total > 0) then {
+ {[1,_x] remoteExec ["TON_fnc_vAH_update",false];}forEach _toDel;
+[0,format["Pendant que vous étiez déconnecté vous avez vendu $%1 à l'hotel des ventes",[_total]call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",player];
+life_atmcash = life_atmcash + _total;
+};

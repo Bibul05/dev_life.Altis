@@ -28,3 +28,5 @@
 #include "compensate.hpp"
 #include "FuelStat.hpp"
 #include "AltisPhone.hpp"
+#include "AH_buy.hpp"
+#include "AH_vsell.hpp"
