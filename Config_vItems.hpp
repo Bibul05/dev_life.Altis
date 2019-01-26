@@ -15,6 +15,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
+	
+	class Agriculteur {
+        name = "STR_Shops_Agriculteur";
+        side = "civ";
+        license = "Agriculteur";
+        level[] = { "", "", -1, "" };
+        items[] = { "pickaxe" };
+    };
 
     class med_market {
         name = "STR_Shops_Market";
@@ -83,7 +91,7 @@ class VirtualShops {
     class oil {
         name = "STR_Shops_Oil";
         side = "civ";
-        license = "";
+        license = "Routier";
         level[] = { "", "", -1, "" };
         items[] = { "oil_processed", "pickaxe", "fuelFull" };
     };
@@ -99,7 +107,7 @@ class VirtualShops {
     class glass {
         name = "STR_Shops_Glass";
         side = "civ";
-        license = "";
+        license = "Routier";
         level[] = { "", "", -1, "" };
         items[] = { "glass" };
     };
@@ -115,7 +123,7 @@ class VirtualShops {
     class iron  {
         name = "STR_Shops_Minerals";
         side = "civ";
-        license = "";
+        license = "Routier";
         level[] = { "", "", -1, "" };
         items[] = { "iron_refined", "copper_refined" };
     };
@@ -123,7 +131,7 @@ class VirtualShops {
     class diamond {
         name = "STR_Shops_Diamond";
         side = "civ";
-        license = "";
+        license = "Routier";
         level[] = { "", "", -1, "" };
         items[] = { "diamond_uncut", "diamond_cut" };
     };
@@ -131,7 +139,7 @@ class VirtualShops {
     class salt {
         name = "STR_Shops_Salt";
         side = "civ";
-        license = "";
+        license = "Routier";
         level[] = { "", "", -1, "" };
         items[] = { "salt_refined" };
     };
@@ -139,7 +147,7 @@ class VirtualShops {
     class cement {
         name = "STR_Shops_Cement";
         side = "civ";
-        license = "";
+        license = "Routier";
         level[] = { "", "", -1, "" };
         items[] = { "cement" };
     };
