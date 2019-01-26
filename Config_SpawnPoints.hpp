@@ -24,7 +24,7 @@ class CfgSpawnPoints {
             displayName = "Neochorie";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "rebel", false } };
+            licenses[] = { { "rebel", false } , { "gangster", false } };
             level[] = { "", "", -1 };
         };
 
@@ -32,7 +32,7 @@ class CfgSpawnPoints {
             displayName = "Athira";
             spawnMarker = "civ_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "", true } };
+            licenses[] = { { "rebel", false } , { "gangster", false } };
             level[] = { "", "", -1 };
         };
 
@@ -40,7 +40,7 @@ class CfgSpawnPoints {
             displayName = "Pyrgos";
             spawnMarker = "civ_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "", true } };
+            licenses[] = { { "rebel", false } , { "gangster", false } };
             level[] = { "", "", -1 };
         };
 
@@ -48,7 +48,15 @@ class CfgSpawnPoints {
             displayName = "Kavala";
             spawnMarker = "civ_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "", true } };
+            licenses[] = { { "rebel", false } , { "gangster", false } };
+            level[] = { "", "", -1 };
+        };
+		
+		class HQC {
+            displayName = "HQ convoyeur de fonds";
+            spawnMarker = "civ_spawn_conv";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "rebel", false } , { "gangster", false } , { "convoyeur", true } };
             level[] = { "", "", -1 };
         };
 		
