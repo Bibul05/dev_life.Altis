@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=317;
+		nextID=331;
 	};
 	class Camera
 	{
@@ -590,24 +590,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -622,6 +604,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -2040,7 +2040,7 @@ class Mission
 			text="@STR_MAR_Sand_Processing";
 			type="loc_Stack";
 			colorName="ColorBrown";
-			angle=359.90289;
+			angle=359.90286;
 			id=132;
 			atlOffset=0.00038909912;
 		};
@@ -2179,7 +2179,7 @@ class Mission
 			position[]={11577.764,23.204569,11906.58};
 			name="air_g_1";
 			type="Empty";
-			angle=113.59839;
+			angle=113.59838;
 			id=145;
 		};
 		class Item143
@@ -105633,7 +105633,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2000;
 			b=50;
-			angle=228.96259;
+			angle=228.96257;
 			id=5910;
 		};
 		class Item1976
@@ -105780,7 +105780,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2000;
 			b=50;
-			angle=228.9626;
+			angle=228.96259;
 			id=5977;
 			atlOffset=0.00012969971;
 		};
@@ -150126,7 +150126,7 @@ class Mission
 			position[]={12681.753,30.396999,14750.41};
 			name="civ_spawn_conv";
 			type="Empty";
-			angle=181.28896;
+			angle=181.28894;
 			id=8150;
 			atlOffset=0.00042152405;
 		};
