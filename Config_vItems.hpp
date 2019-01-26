@@ -31,6 +31,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
+	
+	class gangster {
+        name = "STR_Shops_gangster";
+        side = "civ";
+        license = "gangster";
+        level[] = { "", "", -1, "" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+    };
 
     class gang {
         name = "STR_Shops_Gang";

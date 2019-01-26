@@ -16,11 +16,13 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_F", { "", "", -1 } },
-            { "C_Offroad_01_F", { "", "", -1 } },
-            { "C_SUV_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } },
-            { "C_Van_01_transport_F", { "", "", -1 } }
+            { "ClioIch_civ_rouge", { "", "", -1 } },
+            { "chEspaceI_gris", { "", "", -1 } },
+            { "kangooI1_civ_bleu", { "", "", -1 } },
+            { "chlaguna1_noir", { "", "", -1 } },
+            { "chGolfII_yellow", { "", "", -1 } },
+			{ "ch_citroen_c1_bleu", { "", "", -1 } },
+			{ "Ducato_civ", { "", "", -1 } }
         };
     };
 
@@ -171,51 +173,100 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class Ducato_civ {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class ch_citroen_c1_bleu {
+        vItemSpace = 15;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class chGolfII_yellow {
+        vItemSpace = 15;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
+	class chlaguna1_noir {
+        vItemSpace = 25;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };		
+			
+	class kangooI1_civ_bleu {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };		
+			
+	class chEspaceI_gris {
+        vItemSpace = 35;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+			
+	class ClioIch_civ_rouge {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 0;
+        textures[] = {};
+    };
+	
 	class kangooII1_gn {
         vItemSpace = 50;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 0;
         textures[] = {};
     };
 	
 	class Clio_GN {
         vItemSpace = 20;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 0;
         textures[] = {};
     };
 	
 	class Trafic_gn {
         vItemSpace = 80;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 0;
         textures[] = {};
     };
 	
 	class Megane_Estate_gn {
         vItemSpace = 40;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 0;
         textures[] = {};
     };
 	
 	class chmgrs {
         vItemSpace = 15;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 0;
         textures[] = {};
     };
 	
 	class chVario_loomis {
         vItemSpace = 100;
-        licenses[] = { {"convoyeur"}, {""}, {""}, {""} };
+        licenses[] = { {"convoyeur"}, {"driver"}, {""}, {""} };
         price = 0;
         textures[] = {};
     };
 	
 	class chrenault_bdf {
         vItemSpace = 200;
-        licenses[] = { {"convoyeur"}, {""}, {""}, {""} };
+        licenses[] = { {"convoyeur"}, {"driver"}, {""}, {""} };
         price = 1000;
         textures[] = {};
     };

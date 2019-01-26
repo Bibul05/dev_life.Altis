@@ -62,6 +62,28 @@ class WeaponShops {
             { "acc_flashlight", "", 1000 }
         };
     };
+	
+	class gangster {
+        name = "Mohammed's Jihadi Shop";
+        side = "civ";
+        license = "gangster";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "CUP_arifle_AKS74", "", 25000, 2500 },
+            { "CUP_smg_bizon", "", 30000, 5000 },
+            { "CUP_hgun_TaurusTracker455_gold", "", 50000, -1 },
+            { "CUP_hgun_MicroUzi", "", 20000, 7500 }
+        };
+        mags[] = {
+            { "CUP_30Rnd_545x39_AK_M", "", 300 },
+            { "CUP_64Rnd_9x19_Bizon_M", "", 275 },
+            { "CUP_6Rnd_45ACP_M", "", 500 },
+            { "CUP_30Rnd_9x19_UZI", "", 125 }
+        };
+        accs[] = {
+            { "CUP_optic_Kobra", "", 3500 }
+        };
+    };
 
     class gang {
         name = "Hideout Armament";
@@ -123,14 +145,12 @@ class WeaponShops {
             { "FirstAidKit", "", 150, 65 },
             { "CUP_sgun_M1014", "", 2000, 980 },
             { "CUP_smg_MP5A5", "", 300, -1 },
-            { "R3F_M4S90", "", 300, 50 },
-            { "SMG_03C_black", "", 300, 50 },
+            { "R3F_HK416M", "", 300, 50 },
             { "R3F_G17", "", 300, 50 }
         };
         mags[] = {
 			 { "CUP_30Rnd_9x19_MP5", "", 25 },
-			 { "R3F_7Rnd_M4S90", "", 25 },
-			 { "50Rnd_570x28_SMG_03", "", 25 },
+			 { "R3F_30Rnd_556x45_HK416", "", 25 },
 			 { "R3F_17Rnd_9x19_G17", "", 25 },
 			 { "CUP_8Rnd_B_Beneli_74Slug", "", 25 }
 		};

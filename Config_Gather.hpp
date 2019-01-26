@@ -70,35 +70,7 @@ Example 2:
             amount = 2;
             zones[] = { "farmargent" };
             item = "autorisation";
-            mined[] = { { "sac_argent1" }
-        };
-		
-		class sac_argent2 {
-            amount = 2;
-            zones[] = {};
-            item = "autorisation";
-            mined[] = {};
-        };
-		
-		class sac_argent3 {
-            amount = 2;
-            zones[] = {};
-            item = "autorisation";
-            mined[] = {};
-        };
-		
-		class sac_argent4 {
-            amount = 2;
-            zones[] = {};
-            item = "autorisation";
-            mined[] = {};
-        };
-		
-		class cheque {
-            amount = 2;
-            zones[] = {};
-            item = "autorisation";
-            mined[] = {};
+            mined[] = { "sac_argent1" };
         };
 		
         class copper_unrefined {

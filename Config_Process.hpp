@@ -33,28 +33,28 @@ class ProcessAction {
         NoLicenseCost = 1350;
     };
 	
-	class ArgentA{
+	class argenta{
         MaterialsReq[] = {{"sac_argent1",1}};
         MaterialsGive[] = {{"sac_argent2",1}};
         Text = "STR_Process_argentA";
         NoLicenseCost = 1350;
     };
 	
-	class ArgentP {
+	class argentp {
         MaterialsReq[] = {{"sac_argent2",1}};
         MaterialsGive[] = {{"sac_argent3",1}};
         Text = "STR_Process_argentP";
         NoLicenseCost = 1350;
     };
 	
-	class ArgentK {
+	class argentk {
         MaterialsReq[] = {{"sac_argent3",1}};
         MaterialsGive[] = {{"sac_argent4",1}};
         Text = "STR_Process_argentK";
         NoLicenseCost = 1350;
     };
 	
-	class ArgentN {
+	class argentn {
         MaterialsReq[] = {{"sac_argent4",1}};
         MaterialsGive[] = {{"cheque",1}};
         Text = "STR_Process_argentN";

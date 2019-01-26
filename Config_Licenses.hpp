@@ -184,6 +184,14 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
+	
+	class gangster {
+        variable = "gangster";
+        displayName = "STR_License_gangster";
+        price = 75000;
+        illegal = true;
+        side = "civ";
+    };
 
     //Cop Licenses
     class cAir {

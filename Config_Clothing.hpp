@@ -338,6 +338,35 @@ class Clothing {
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
         };
     };
+	
+	class gangster {
+        title = "STR_Vestiaire_Gangster";
+        license = "gangster";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "TRYK_shirts_DENIM_BK", "", 0, { "", "", -1 } },
+			{ "TRYK_shirts_DENIM_BL", "", 0, { "", "", -1 } }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, { "", "", -1 } }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 0, { "", "", -1 } },
+			{ "R3F_cagoule_tan", "", 0, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "TRYK_V_IOTV_BLK", "", 1900, { "", "", -1 } },
+			{ "TRYK_V_tacv1_CY", "", 0, { "", "", -1 } }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "TRYK_B_Belt_BLK", "", 0, { "", "", -1 } },
+			{ "TRYK_B_Coyotebackpack", "", 0, { "", "", -1 } }
+        };
+    };
 
     class kart {
         title = "STR_Shops_C_Kart";

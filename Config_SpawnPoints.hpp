@@ -51,6 +51,22 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
+		
+		class gangsterouest {
+            displayName = "Repère gangster";
+            spawnMarker = "gangster_spawn_1";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "gangster", true } };
+            level[] = { "", "", -1 };
+        };
+		
+		class gangsterest {
+            displayName = "Ville gangster";
+            spawnMarker = "gangster_spawn_2";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "gangster", true } };
+            level[] = { "", "", -1 };
+        };
 
         class RebelS {
             displayName = "Northern Rebel Base";
